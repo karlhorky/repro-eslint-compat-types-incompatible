@@ -1,0 +1,15 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+  "tasks": {
+    "tsc": {
+      "name": "tsc",
+      "command": "pnpm tsc",
+      "runAtStart": true
+    }
+  }
+}
