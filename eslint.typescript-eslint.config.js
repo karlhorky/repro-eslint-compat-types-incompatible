@@ -2,14 +2,12 @@
 
 import { fixupPluginRules } from '@eslint/compat';
 import react from 'eslint-plugin-react';
+import tseslint from 'typescript-eslint';
 
-/** @type {import('@typescript-eslint/utils/ts-eslint').FlatConfig.ConfigArray} */
-const configArray = [
-  {
-    plugins: {
-      react: fixupPluginRules(react),
-    },
+const configArray = tseslint.config({
+  plugins: {
+    react: fixupPluginRules(react),
   },
-];
+});
 
 export default configArray;
