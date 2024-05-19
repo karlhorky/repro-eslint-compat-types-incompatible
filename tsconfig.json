@@ -19,5 +19,5 @@
     "strict": true,
     "target": "ES2021"
   },
-  "include": ["*.js"]
+  "include": ["*.js", "*.ts"]
 }
