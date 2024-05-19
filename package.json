@@ -1,8 +1,5 @@
 {
   "type": "module",
-  "scripts": {
-    "tsc": "tsc"
-  },
   "devDependencies": {
     "@eslint/compat": "1.0.1",
     "@eslint/js": "9.3.0",
